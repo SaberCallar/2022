@@ -279,9 +279,9 @@
 		function goto(id) {
 			var t = $(id)[0].offsetTop;
 			$('body').animate({ scrollTop: t }, 200);
-			$(id).addClass('animate');
+			$(id).addClass('animatetext');
 			setTimeout(function(){
-				$(id).removeClass('animate');
+				$(id).removeClass('animatetext');
 			},5000);
 		}
 		
