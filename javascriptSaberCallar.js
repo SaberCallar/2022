@@ -30,9 +30,14 @@ function showSpanishBB() {
 }
 
 //Show English and Spanish side-by-side
+//Allow each language to occupy half the space
 function showBilingualBB() {
 	$('#BBSpanish').css('display', 'block')
 	$('#BBEnglish').css('display', 'block')
+	$('#BBEnglish').removeClass('col-md-12')
+	$('#BBSpanish').removeClass('col-md-12')
+	$('#BBEnglish').addClass('col-md-6')
+	$('#BBSpanish').addClass('col-md-6')
 } 
 
 
@@ -53,9 +58,14 @@ function showSpanishPM() {
 }
 
 //Show English and Spanish side-by-side
+//Allow each language to occupy half the space
 function showBilingualPM() {
 	$('#PMSpanish').css('display', 'block')
 	$('#PMEnglish').css('display', 'block')
+	$('#PMEnglish').removeClass('col-md-12')
+	$('#PMSpanish').removeClass('col-md-12')
+	$('#PMEnglish').addClass('col-md-6')
+	$('#PMSpanish').addClass('col-md-6')
 } 
 
 
@@ -76,9 +86,14 @@ function showSpanishJS() {
 }
 
 //Show English and Spanish side-by-side
+//Allow each language to occupy half the space
 function showBilingualJS() {
 	$('#JSSpanish').css('display', 'block')
 	$('#JSEnglish').css('display', 'block')
+	$('#JSEnglish').removeClass('col-md-12')
+	$('#JSSpanish').removeClass('col-md-12')
+	$('#JSEnglish').addClass('col-md-6')
+	$('#JSSpanish').addClass('col-md-6')
 } 
 
 
@@ -102,9 +117,14 @@ function showSpanishRC() {
 }
 
 //Show English and Spanish side-by-side
+//Allow each language to occupy half the space
 function showBilingualRC() {
 	$('#RCSpanish').css('display', 'block')
 	$('#RCEnglish').css('display', 'block')
+	$('#RCEnglish').removeClass('col-md-12')
+	$('#RCSpanish').removeClass('col-md-12')
+	$('#RCEnglish').addClass('col-md-6')
+	$('#RCSpanish').addClass('col-md-6')
 } 
 
 
@@ -125,9 +145,14 @@ function showSpanishFS() {
 }
 
 //Show English and Spanish side-by-side
+//Allow each language to occupy half the space
 function showBilingualFS() {
 	$('#FSSpanish').css('display', 'block')
 	$('#FSEnglish').css('display', 'block')
+	$('#FSEnglish').removeClass('col-md-12')
+	$('#FSSpanish').removeClass('col-md-12')
+	$('#FSEnglish').addClass('col-md-6')
+	$('#FSSpanish').addClass('col-md-6')
 } 
 
 
@@ -148,7 +173,12 @@ function showSpanishLV() {
 }
 
 //Show English and Spanish side-by-side
+//Allow each language to occupy half the space
 function showBilingualLV() {
 	$('#LVSpanish').css('display', 'block')
 	$('#LVEnglish').css('display', 'block')
+	$('#LVEnglish').removeClass('col-md-12')
+	$('#LVSpanish').removeClass('col-md-12')
+	$('#LVEnglish').addClass('col-md-6')
+	$('#LVSpanish').addClass('col-md-6')
 } 
