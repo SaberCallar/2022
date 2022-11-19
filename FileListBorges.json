@@ -1,14 +1,14 @@
 [
 	{
-		"label": "Pierre Menard, autor del 'Quijote'",
+		"label": "Pierre Menard, Author of the 'Quixote'",
 		"url": "Files/PierreMenard.html"
 	},
 	{
-		"label": "La biblioteca de Babel",
+		"label": "The Library of Babel",
 		"url": "Files/BibliotecaDeBabel.html"
 	},
 	{
-		"label": "El jardin de senderos que se bifurcan",
+		"label": "The Garden of Forking Paths",
 		"url": "Files/JardinDeSenderos.html"
 	}
 ]
