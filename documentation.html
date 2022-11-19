@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<!--metadata tags-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrint-to-fit=no">
+	<title>Saber Callar</title>
+	
+	<!--bootstrap information-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+	
+	<!--project css and javascript files-->
+	<link rel="stylesheet" href="INSERT DEFAULT STYLESHEET" id="INSERT DEFAULT STYLESHEET ID">
+	<script src="javascriptSaberCallar.js"></script>
+</head>
+
+<body>
+	<header class="header sticky-top">
+	<!--main navbar-->
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+		<div class="container">
+			<div id="ClioAndErato">
+				<a class="navbar-brand" href="index.html">Saber Callar</a>
+			</div>
+			
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expander="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse navbar-menu" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Editions</a>
+						<div class="dropdown-menu dropdown-menu-end animate slideIn" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="borges.html">Borges</a>
+							<a class="dropdown-item" href="cervantes.html">Cervantes</a>
+							<a class="dropdown-item" onclick="comingsoon()">Cortázar</a>
+							<a class="dropdown-item" onclick="comingsoon()">Zayas</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="documentation.html">Documentation</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="editor.html">Editor</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" onclick="disclaimer()">Disclaimer</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<!--CSS styles navbar-->
+	<ul class="nav justify-content-center navbar-menu navbar-light bg-white" id="cssnavbar">
+		<li class="nav-item">
+			<a class="nav-link sec-nav" onclick="#">Theme1</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link sec-nav" onclick="#">Theme2</a>
+		</li>
+	</ul>
+	</header>
+	
+	<!--jumbotron-->
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container" style="background-image: url(Images/shh3BW.jpg); padding-top: 15%; padding-bottom: 15%;  background-size: cover;">
+			<h1>Documentation</h1>
+			<p>SOME TEXT</p>
+		</div>
+	</div>
+	<hr>
+	
+	<!--Project documentation-->
+	<div class="textsection" id="XXX">
+		<h1>HEADER</h1>
+		<p>Text</p>
+		<p>Text</p>
+		<p>Text</p>
+		<hr>
+		
+		<h1>HEADER</h1>
+		<p>Text</p>
+		<p>Text</p>
+		<p>Text</p>
+		<hr>
+		
+		<h1>HEADER</h1>
+		<p>Text</p>
+		<p>Text</p>
+		<p>Text</p>
+		<hr>
+		
+		<h1>HEADER</h1>
+		<p>Text</p>
+		<p>Text</p>
+		<p>Text</p>
+		<hr>
+	</div>
+	
+	<!--footer-->
+	<footer class="border-top">
+		<div class="small text-center text-muted fst-italic">
+			<p>&copy; Saber Callar</p>
+		</div>
+	</footer>
+
+</body>
+</html>

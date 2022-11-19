@@ -1,0 +1,290 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<!--metadata tags-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrint-to-fit=no">
+	<title>Saber Callar</title>
+	
+	<!--bootstrap information-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+	
+	<!--project css and javascript files-->
+	<link rel="stylesheet" href="DefaultCSS.css" id="DefaultCSS">
+	<script src="javascriptSaberCallar.js"></script>
+</head>
+
+<body>
+	<header class="header sticky-top">
+	<!--main navbar-->
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+		<div class="container">
+			<div id="ClioAndErato">
+				<a class="navbar-brand" href="index.html">Saber Callar</a>
+			</div>
+			
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expander="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse navbar-menu" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Editions</a>
+						<div class="dropdown-menu dropdown-menu-end animate slideIn" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="borges.html">Borges</a>
+							<a class="dropdown-item" href="cervantes.html">Cervantes</a>
+							<a class="dropdown-item" onclick="comingsoon()">Cortázar</a>
+							<a class="dropdown-item" onclick="comingsoon()">Zayas</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="documentation.html">Documentation</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="editor.html">Editor</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" onclick="disclaimer()">Disclaimer</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<!--CSS styles navbar-->
+	<ul class="nav justify-content-center navbar-menu navbar-light bg-white" id="cssnavbar">
+		<li class="nav-item">
+			<a class="nav-link sec-nav" onclick="#">Theme1</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link sec-nav" onclick="#">Theme2</a>
+		</li>
+	</ul>
+	</header>
+	
+	<!--jumbotron-->
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container" style="background-image: url(Images/SevillaBWcrop.jpg); padding-top: 15%; padding-bottom: 15%;  background-size: cover;">
+			<h1>Miguel de Cervantes</h1>
+		</div>
+	</div>
+	<hr>
+	
+	<!--introduction to the edition-->
+	<div class="textsection" id="editionIntro">
+	
+		<div class="row">
+			<div class="col-sm-12 col-md-4 text-center my-auto">
+				<img src="Images/Cervantes.jpg" alt="ImageOfCervantes" height="300px"></img>
+			</div><br>
+			<div class="col-sm-12 col-md-8">
+				<p>Miguel de Cervantes was born in 1547 in Alcalá de Henares, Spain. He is primarily known for his masterpiece <i>Don Quixote</i>, often referred to as the first modern novel and one of the pinnacles of world literature. However, as well as being a poet and playwright, he is also credited for making a major contribution to the adaption of the short story into the Spanish vernacular with his collection entitled the <i>Exemplary Novels</i>.</p>
+				<p>Cervantes lived during the Spanish Inquisition, meaning that he wrote under a culture of strict literary censorship, with all art having to act in service of the Church. For this reason, his tales are not always as straightforward as they appear: happy endings are often precarious, irony and playfulness abound, and the reader must read between the lines in order to grasp the full extent of the writer's censor-bypassing ingenuity.</p>
+				<p>In this edition, <i>Saber Callar</i> presents three of Cervantes' most well-loved <i>Exemplary Novels</i>: <i>Rinconete and Cortadillo</i>, <i>The Power of Blood</i>, and <i>The Glass Graduate</i>.</p>
+			</div>
+		</div>
+		
+	</div>
+	<hr>
+	
+	<div>
+	<article>
+		<div class="container" id="texts">
+		
+			<div class="row">
+				<div class="col-md-4 col-sm-12">
+					<div class="metadata">
+						<h3>Select Story:</h3>
+						<ul id="list"></ul>
+				
+					<div class="row mt-4">
+						<h3>Select Metadata:</h3>
+						<div class="col-md-12">
+							<form role="form">
+								<div class="checkbox">
+									<label><input type="checkbox" id="showchar" class="show">Show character</label>
+								</div>
+								<div class="checkbox">
+									<label><input type="checkbox" id="showplace" class="show">Show place</label>
+								</div>
+								<div class="checkbox">
+									<label><input type="checkbox" id="showquot" class="show">Show quotation</label>
+								</div>
+							</form>
+						</div>
+					</div>
+				
+					<div class="row clearfix mt-4">
+						<div class="col-md-12">
+							<ul class="nav nav-tabs" id="sentenceTab" role="tablist">
+								<li class="nav-item">
+									<a class="nav-link active" id="char-tab" data-toggle="tab" href="#char" role="tab" aria-controls="view" aria-selected="true">Character</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" id="place-tab" data-toggle="tab" href="#place" role="tab" aria-controls="home" aria-selected="false">Place</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" id="quot-tab" data-toggle="tab" href="#quot" role="tab" aria-controls="home" aria-selected="false">Quotation</a>
+								</li>
+							</ul>
+
+							<!-- Tab panes -->
+							<div class="tab-content auto" id="sentenceContent">
+								<div class="tab-pane active myBorder myBorder-notop" id="char" role="tabpanel" aria-labelledby="char-tab">
+									<ul class="minimal"></ul>
+								</div>
+								<div class="tab-pane myBorder myBorder-notop" id="place" role="tabpanel" aria-labelledby="place-tab">
+									<ul class="minimal"></ul>
+								</div>
+								<div class="tab-pane myBorder myBorder-notop" id="quot" role="tabpanel" aria-labelledby="quot-tab">
+									<ul class="minimal"></ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-8 col-sm-12">
+				<div id="file"></div>
+			</div>
+			
+		</div>
+		</div>
+	</article>
+	</div>
+	
+	<!--footer-->
+	<footer class="border-top">
+		<div class="small text-center text-muted fst-italic">
+			<p>&copy; Saber Callar</p>
+		</div>
+	</footer>
+	
+	<!-- Bootstrap core JavaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script>
+		String.prototype.tpl = function(o) { 
+			var r = this ; 
+			for (var i in o) { 
+				r = r.replace(new RegExp("\\$"+i, 'g'),o[i])  
+			} 
+			return r 
+		}
+		
+		var listItemTpl = `<li><a href='#texts' onclick='load("$url")'>$label</a></li>`
+		
+		$(document).ready(main);
+
+		function main() {
+			$.ajax({
+				method: 'GET',
+				url: 'FileListCervantes.json',
+				success: function(d) {
+					for (var i=0; i < d.length; i++) {
+						$('#list').append(listItemTpl.tpl({
+						url: d[i].url, 
+						label: d[i].label}))
+					}	
+				},
+				error: function() {
+					alert('No document to show')
+				}
+			});
+			
+			
+			$('#showchar').click(function() {
+				if (this.checked) 
+					$('.char').addClass('text-char')
+				else
+					$('.char').removeClass('text-char')
+			})
+			$('#showplace').click(function() {
+				if (this.checked) 
+					$('.place').addClass('text-place')
+				else
+					$('.keyword').removeClass('text-place')
+			})
+			$('#showquot').click(function() {
+				if (this.checked) 
+					$('.quot').addClass('text-quot')
+				else
+					$('.quot').removeClass('text-quot')
+			})
+		
+		}
+
+
+		function load(file) {
+			$.ajax({
+				method: 'GET',
+				url: file,
+				success: function(d) {
+					$('#file').html(d)
+					$('.show').prop("checked", false)
+					addIds()
+					filltabs()
+				},
+				error: function() {
+					alert('Could not load file '+file)
+				}
+			});
+		}
+		
+		function addIds() {
+			addId('.char','char')
+			addId('.place','place')
+			addId('.quot', 'quot')
+		}
+		
+		function addId(what, prefix) {
+			var id = '0'
+			var elements = $(what); 
+			for (var i=0; i<elements.length; i++) {
+				elements[i].id = prefix + "-" + id++
+			}
+		}
+		
+		function filltabs(){
+			filltab("#file .char","list-char","#char")
+			filltab("#file .place","list-place","#place")
+			filltab("#file .quot","list-quot","#quot")
+		}
+		
+		
+		function filltab(what,style,where) {
+			var list = `<li class="list $style"><a href="#" onclick="goto('$place')">$content</a></li>`
+			var elements = $(what); 
+			$(where+' ul').empty(); 
+			for (var i=0; i<elements.length; i++) {
+				$(where+' ul').append(list.tpl({
+					style:style, 
+					place: '#'+elements[i].id,
+					content: elements[i].innerHTML
+				}) )
+			}
+		}
+
+		function goto(id) {
+			var t = $(id)[0].offsetTop;
+			$('body').animate({ scrollTop: t }, 200);
+			$(id).addClass('animate');
+			setTimeout(function(){
+				$(id).removeClass('animate');
+			},5000);
+		}
+		
+	</script>
+</body>
+</html>
