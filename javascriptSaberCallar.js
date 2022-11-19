@@ -1,6 +1,6 @@
 //Make coming soon message appear when future editions are clicked
 function comingsoon() {
-	alert("Issue coming soon");
+	alert("Edition coming soon");
 }
 
 //Make disclaimer statement when click on navbar link "Disclaimer"
