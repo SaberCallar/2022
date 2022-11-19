@@ -16,17 +16,21 @@ function disclaimer() {
 //BIBLIOTECA DE BABEL
 
 //Show just the English text of the story
-//If in bilingual mode, hide Spanish text
+//If in bilingual mode, hide Spanish text and expand width
 function showEnglishBB() {
 	$('#BBEnglish').css('display', 'block')
 	$('#BBSpanish').css('display', 'none')
+	$('#BBEnglish').removeClass('col-md-6')
+	$('#BBEnglish').addClass('col-md-12')
 }
 
 //Show just the Spanish text of the story
-//If in bilingual mode, hide English text
+//If in bilingual mode, hide English text and expand width
 function showSpanishBB() {
 	$('#BBSpanish').css('display', 'block')
 	$('#BBEnglish').css('display', 'none')
+	$('#BBSpanish').removeClass('col-md-6')
+	$('#BBSpanish').addClass('col-md-12')
 }
 
 //Show English and Spanish side-by-side
@@ -44,17 +48,21 @@ function showBilingualBB() {
 //PIERRE MENARD
 
 //Show just the English text of the story
-//If in bilingual mode, hide Spanish text
+//If in bilingual mode, hide Spanish text and expand width
 function showEnglishPM() {
 	$('#PMEnglish').css('display', 'block')
 	$('#PMSpanish').css('display', 'none')
+	$('#PMEnglish').removeClass('col-md-6')
+	$('#PMEnglish').addClass('col-md-12')
 }
 
 //Show just the Spanish text of the story
-//If in bilingual mode, hide English text
+//If in bilingual mode, hide English text and expand width
 function showSpanishPM() {
 	$('#PMSpanish').css('display', 'block')
 	$('#PMEnglish').css('display', 'none')
+	$('#PMSpanish').removeClass('col-md-6')
+	$('#PMSpanish').addClass('col-md-12')
 }
 
 //Show English and Spanish side-by-side
@@ -72,17 +80,21 @@ function showBilingualPM() {
 //JARDÍN DE SENDEROS
 
 //Show just the English text of the story
-//If in bilingual mode, hide Spanish text
+//If in bilingual mode, hide Spanish text and expand width
 function showEnglishJS() {
 	$('#JSEnglish').css('display', 'block')
 	$('#JSSpanish').css('display', 'none')
+	$('#JSEnglish').removeClass('col-md-6')
+	$('#JSEnglish').addClass('col-md-12')
 }
 
 //Show just the Spanish text of the story
-//If in bilingual mode, hide English text
+//If in bilingual mode, hide English text and expand width
 function showSpanishJS() {
 	$('#JSSpanish').css('display', 'block')
 	$('#JSEnglish').css('display', 'none')
+	$('#JSSpanish').removeClass('col-md-6')
+	$('#JSSpanish').addClass('col-md-12')
 }
 
 //Show English and Spanish side-by-side
@@ -103,17 +115,21 @@ function showBilingualJS() {
 //RINCONETE Y CORTADILLO
 
 //Show just the English text of the story
-//If in bilingual mode, hide Spanish text
+//If in bilingual mode, hide Spanish text and expand width
 function showEnglishRC() {
 	$('#RCEnglish').css('display', 'block')
 	$('#RCSpanish').css('display', 'none')
+	$('#RCEnglish').removeClass('col-md-6')
+	$('#RCEnglish').addClass('col-md-12')
 }
 
 //Show just the Spanish text of the story
-//If in bilingual mode, hide English text
+//If in bilingual mode, hide English text and expand width
 function showSpanishRC() {
 	$('#RCSpanish').css('display', 'block')
 	$('#RCEnglish').css('display', 'none')
+	$('#RCSpanish').removeClass('col-md-6')
+	$('#RCSpanish').addClass('col-md-12')
 }
 
 //Show English and Spanish side-by-side
@@ -131,17 +147,21 @@ function showBilingualRC() {
 //LA FUERZA DE LA SANGRE
 
 //Show just the English text of the story
-//If in bilingual mode, hide Spanish text
+//If in bilingual mode, hide Spanish text and expand width
 function showEnglishFS() {
 	$('#FSEnglish').css('display', 'block')
 	$('#FSSpanish').css('display', 'none')
+	$('#FSEnglish').removeClass('col-md-6')
+	$('#FSEnglish').addClass('col-md-12')
 }
 
 //Show just the Spanish text of the story
-//If in bilingual mode, hide English text
+//If in bilingual mode, hide English text and expand width
 function showSpanishFS() {
 	$('#FSSpanish').css('display', 'block')
 	$('#FSEnglish').css('display', 'none')
+	$('#FSSpanish').removeClass('col-md-6')
+	$('#FSSpanish').addClass('col-md-12')
 }
 
 //Show English and Spanish side-by-side
@@ -159,17 +179,21 @@ function showBilingualFS() {
 //EL LICENCIADO VIDRIERA
 
 //Show just the English text of the story
-//If in bilingual mode, hide Spanish text
+//If in bilingual mode, hide Spanish text and expand width
 function showEnglishLV() {
 	$('#LVEnglish').css('display', 'block')
 	$('#LVSpanish').css('display', 'none')
+	$('#LVEnglish').removeClass('col-md-6')
+	$('#LVEnglish').addClass('col-md-12')
 }
 
 //Show just the Spanish text of the story
-//If in bilingual mode, hide English text
+//If in bilingual mode, hide English text and expand width
 function showSpanishLV() {
 	$('#LVSpanish').css('display', 'block')
 	$('#LVEnglish').css('display', 'none')
+	$('#LVSpanish').removeClass('col-md-6')
+	$('#LVSpanish').addClass('col-md-12')
 }
 
 //Show English and Spanish side-by-side
