@@ -8,11 +8,6 @@ function disclaimer() {
 	alert("The purpose of this website is to explore various types of typographic and layout styles for text documents, as an end-of-course project for the Information Modelling and Web Technologies module of the Masters Degree in Digital Humanities and Digital Knowledge at the University of Bologna, 2021-22, taught by Professor Fabio Vitali.\nThe documents contained in this web site have been selected for their length and complexity. Their publication here is not intended to be an alternative to, or to replace, their original locations, all of which are highlighted in the project's documentation.\nAll copyrights and related rights on the content remain with their original owners. All copyright on the typographic and layout choices are 2022 © Saber Callar");
 }
 
-//Make "shh" noise when homepage loads
-function shhaudio() {
-	const audio = new Audio("Shhh-sound.mp3");
-	audio.play();
-}
 
 
 //EDITION 1: BORGES
