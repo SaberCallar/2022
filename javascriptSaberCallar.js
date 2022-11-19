@@ -10,7 +10,7 @@ function disclaimer() {
 
 //Make "shh" noise when homepage loads
 function shhaudio() {
-	const audio = new Audio("Shhh-sound.mp3")
+	const audio = new Audio("Shhh-sound.mp3");
 	audio.play();
 }
 
