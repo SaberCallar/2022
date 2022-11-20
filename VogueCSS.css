@@ -42,7 +42,7 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {font-fam
 	color: #000000;
 }
 
-.textsection, button, .modal-content {
+.textsection, button {
 	font-family: Garamond, Cambria, Serif;
 	font-size: 14pt;
 }
@@ -97,7 +97,9 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {font-fam
   letter-spacing: 2;
   left: 50%;
   top: 50%;
+  font-family: VogueTitles;
   text-transform: uppercase;
+  font-size: 6em;
   color: #000000;
   text-shadow: 0 0 0.6rem #000000, 0 0 1.5rem #dcdcdc,
     -0.2rem 0.1rem 1rem #dcdcdc, 0.2rem 0.1rem 1rem #dcdcdc,
