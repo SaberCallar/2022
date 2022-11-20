@@ -47,11 +47,11 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {font-fam
 	font-size: 14pt;
 }
 
-.languagebutton {
+button {
   transition-duration: 0.4s;
 }
 
-.languagebutton:hover {
+button:hover {
   background-color: #000000;
   color: white;
 }
