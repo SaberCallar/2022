@@ -1,13 +1,13 @@
 .text-char {
-    background-color: #fdb4e8;
+    background-color: #414a4c;
 }
 
 .text-place {
-    background-color: #9ef39e;
+    background-color: #e5e4e2;
 }
 
 .text-quot {
-    background-color: #fcf37d;
+    background-color: #979aaa;
 }
 
 
@@ -47,11 +47,11 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {font-fam
 	font-size: 14pt;
 }
 
-button {
+.languagebutton {
   transition-duration: 0.4s;
 }
 
-button:hover {
+.languagebutton:hover {
   background-color: #000000;
   color: white;
 }
