@@ -121,11 +121,13 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 
 .languagebutton {
   transition-duration: 0.4s;
+  background-color: #E10600;
+  color: white;
 }
 
 .languagebutton:hover {
-  background-color: #E10600;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .checkbox, #sentenceContent, #list {
@@ -142,8 +144,7 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 	color: #000000;
 }
 
-
-article {
+#texts {
 	background-color: background-color: #FEDD00;
 }
 	
