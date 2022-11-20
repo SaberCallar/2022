@@ -28,7 +28,7 @@ function toggleTopButton() {
 
 //Swapping CSS theme functions
 // When the CSS theme is changed save a key-value pair in sessionStorage
-function swapTheme(csspath) {
+function CSSSwap(csspath) {
 	document.getElementById('CurrentCSS').setAttribute('href', csspath);
 	sessionStorage.setItem('href', csspath);
 }
