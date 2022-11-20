@@ -26,6 +26,30 @@ function toggleTopButton() {
 }
 
 
+//Swapping CSS theme functions
+// When the CSS theme is changed save a key-value pair in sessionStorage
+function swapTheme(csspath) {
+	document.getElementById('CurrentCSS').setAttribute('href', csspath);
+	sessionStorage.setItem('href', csspath);
+}
+
+// Save the CSS theme and make sure it's consistent while browsing the site
+//Save the starting style as a variable 
+//Check the value of the starting style and change the href of the page to be consistent
+$(document).ready(function () {
+  var initialStyle = sessionStorage.getItem('href');
+  switch (initialStyle) {
+    case 'VogueCSS.css':
+      document.getElementById('CurrentCSS').setAttribute('href', 'VogueCSS.css');
+      break;
+    case 'MondrianCSS.css':
+      document.getElementById('CurrentCss').setAttribute('href', 'MondrianCSS.css');
+      break;
+  }
+})
+
+
+
 
 //EDITION 1: BORGES
 
