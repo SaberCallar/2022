@@ -42,7 +42,7 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {font-fam
 	color: #000000;
 }
 
-.textsection, button {
+.textsection, button, .modal-content {
 	font-family: Garamond, Cambria, Serif;
 	font-size: 14pt;
 }
