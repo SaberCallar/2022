@@ -68,6 +68,18 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 	padding-bottom: 1cm;
 }
 
+.jumbotronTitleH, .jumbotronTitleE, .jumbotronTitleD {
+	background-image: url(Images/shh3Crop.jpg) !important;
+}
+
+.jumbotronTitleB {
+	background-image: url(Images/Geometry.jpg) !important;
+}
+
+.jumbotronTitleC {
+	background-image: url(Images/SevillaCropAdj.jpg) !important;
+}
+
 .textsection, button, .modal-content {
 	font-family: MondrianText, "Lucida Bright", sans-serif;
 	font-size: 15pt;
@@ -144,7 +156,6 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 	color: #000000;
 }
 
-#texts {
-	background-color: background-color: #FEDD00;
-}
+
+
 	
