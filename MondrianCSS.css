@@ -68,6 +68,20 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 	padding-bottom: 1cm;
 }
 
+.sign {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 50%;
+	transform: translate(-50%, -50%);
+	letter-spacing: 2;
+	left: 50%;
+	top: 50%;
+		
+}
+
 .jumbotronTitleH, .jumbotronTitleE, .jumbotronTitleD {
 	background-image: url(Images/shh3Crop.jpg) !important;
 }
@@ -176,3 +190,6 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 }
 
 	
+
+
+
