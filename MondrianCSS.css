@@ -70,14 +70,14 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 
 .sign {
 	font-family: MondrianTitles;
-	font-size: 54pt;
+	font-size: 50pt;
 	color: #000000;
 	text-shadow: 2px 2px #0000BF;
-	position: absolute;
+	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 50%;
+	width: 70%;
 	height: 50%;
 	transform: translate(-50%, -50%);
 	letter-spacing: 2;
@@ -87,7 +87,7 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 }
 
 .jumbotronTitleH, .jumbotronTitleE, .jumbotronTitleD {
-	background-image: url(Images/ShhManCrop.jpg) !important;
+	background-image: url(Images/ShhManCrop3.jpg) !important;
 }
 
 .jumbotronTitleB {
