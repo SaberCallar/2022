@@ -7,7 +7,7 @@
 }
 
 .text-quot {
-    background-color: #0000BF;
+    background-color: #08FF08;
 }
 
 
@@ -21,7 +21,7 @@
 
 @keyframes bgcolor {
     from { background-color: #ffffff;  }
-    to { background-color: #fba66c; }
+    to { background-color: #fffff0; }
 }
 
 
