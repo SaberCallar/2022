@@ -37,15 +37,15 @@ function CSSSwap(csspath) {
 //Save the starting style as a variable 
 //Check the value of the starting style and change the href of the page to be consistent
 $(document).ready(function () {
-  var initialStyle = sessionStorage.getItem('href');
-  switch (initialStyle) {
+	var initialStyle = sessionStorage.getItem('href');
+	switch (initialStyle) {
     case 'VogueCSS.css':
       document.getElementById('CurrentCSS').setAttribute('href', 'VogueCSS.css');
       break;
     case 'MondrianCSS.css':
-      document.getElementById('CurrentCss').setAttribute('href', 'MondrianCSS.css');
+      document.getElementById('CurrentCSS').setAttribute('href', 'MondrianCSS.css');
       break;
-  }
+	}
 })
 
 
