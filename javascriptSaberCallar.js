@@ -27,22 +27,22 @@ function toggleTopButton() {
 
 //Swapping CSS theme
 function CSSSwap(csspath) {
-	document.getElementById('CurrentCSS').setAttribute('href', csspath);
-	sessionStorage.setItem('href', csspath);
+	document.getElementById('CurrentCSS').setAttribute('href', csspath)
+	localStorage.setItem('href', csspath)
 }
 
-// Save the CSS theme to make sure it's consistent while browsing the site
+//Save the CSS theme to make sure it's consistent while browsing the site
 //Save the starting style as a variable as soon as we load a page of the site
 //Check value of the variable and change the href of the page to be consistent
 $(document).ready(function() {
-	var initialStyle = sessionStorage.getItem('href');
+	var initialStyle = localStorage.getItem('href')
 	switch (initialStyle) {
 		case 'VogueCSS.css':
-			document.getElementById('CurrentCSS').setAttribute('href', 'VogueCSS.css');
-			break;
+			document.getElementById('CurrentCSS').setAttribute('href', 'VogueCSS.css')
+			break
 		case 'MondrianCSS.css':
-			document.getElementById('CurrentCSS').setAttribute('href', 'MondrianCSS.css');
-			break;
+			document.getElementById('CurrentCSS').setAttribute('href', 'MondrianCSS.css')
+			break
 	}
 })
 	
