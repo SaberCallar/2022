@@ -34,17 +34,14 @@ document.onload = function() {
 		initialStyle = document.getElementById("CurrentCSS").getAttribute("href");
 		sessionStorage.setItem("href", initialStyle);
 	}
-	else {
-		switch (initialStyle) {
-		case 'VogueCSS.css':
-			document.getElementById('CurrentCSS').setAttribute('href', 'VogueCSS.css');
-			break;
-		case 'MondrianCSS.css':
-			document.getElementById('CurrentCSS').setAttribute('href', 'MondrianCSS.css');
-			break;
-		}
-	}	
-}
+	else if initialStyle == 'VogueCSS.css' {
+		document.getElementById('CurrentCSS').setAttribute('href', 'VogueCSS.css');
+	{
+	else if initialStyle == 'MondrianCSS.css' {
+		document.getElementById('CurrentCSS').setAttribute('href', 'MondrianCSS.css');
+		{
+{
+	
 		
 function CSSSwap(csspath) {
 	document.getElementById('CurrentCSS').setAttribute('href', csspath);
