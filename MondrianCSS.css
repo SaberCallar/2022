@@ -21,7 +21,7 @@
 
 @keyframes bgcolor {
     from { background-color: #ffffff;  }
-    to { background-color: #fffff0; }
+    to { background-color: #FEDD00; }
 }
 
 
@@ -73,7 +73,7 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 }
 
 .jumbotronTitleB {
-	background-image: url(Images/Geometry.jpg) !important;
+	background-image: url(Images/GeometryEdit.jpg) !important;
 }
 
 .jumbotronTitleC {
@@ -118,6 +118,7 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 	color: #000000;
 }
 
+
 .caption {
 	font-family: MondrianText, "Lucida Bright", sans-serif;
 	font-size: 12pt;
@@ -156,6 +157,22 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 	color: #000000;
 }
 
+#RebDetails {
+	border-style: solid;
+	border-width: 0.5em;
+	border-color: #000000;
+	padding: 1em;
+	background-color: #0000BF;
+	color: #000000;
+	margin-bottom: 1em;
+}
 
+#editorInfo, #projectDocumentation {
+	border-style: solid;
+	border-width: 1em;
+	border-color: #000000;
+	padding: 2em;
+	margin: 2em;
+}
 
 	
