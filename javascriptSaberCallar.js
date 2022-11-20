@@ -34,17 +34,15 @@ function CSSSwap(csspath) {
 // Save the CSS theme to make sure it's consistent while browsing the site
 //Save the starting style as a variable as soon as we load a page of the site
 //Check value of the variable and change the href of the page to be consistent
-$(document).ready(function () {
+$(document).ready(function() {
 	var initialStyle = sessionStorage.getItem('href');
-		
-		
 	switch (initialStyle) {
-    case 'VogueCSS.css':
-      document.getElementById('CurrentCSS').setAttribute('href', 'VogueCSS.css');
-      break;
-    case 'MondrianCSS.css':
-      document.getElementById('CurrentCSS').setAttribute('href', 'MondrianCSS.css');
-      break;
+		case 'VogueCSS.css':
+			document.getElementById('CurrentCSS').setAttribute('href', 'VogueCSS.css');
+			break;
+		case 'MondrianCSS.css':
+			document.getElementById('CurrentCSS').setAttribute('href', 'MondrianCSS.css');
+			break;
 	}
 })
 	
