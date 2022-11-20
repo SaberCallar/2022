@@ -34,14 +34,15 @@ function CSSSwap(csspath) {
 //Save the CSS theme to make sure it's consistent while browsing the site
 //Save the starting style as a variable as soon as we load a page of the site
 //Check value of the variable and change the href of the page to be consistent
-$(document).ready(function() {
+document.onload = keepStyle();
+function keepStyle() {
 	if (localStorage.getItem("href") == undefined) {
 		document.getElementById("CurrentCSS").setAttribute("href", "VogueCSS.css");
     }
     else {
         document.getElementById("CurrentCSS").setAttribute("href", localStorage.getItem("href"));
 	}
-})
+}
 	
 	
 	
