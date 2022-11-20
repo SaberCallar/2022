@@ -1,0 +1,145 @@
+.text-char {
+    background-color: #E10600;
+}
+
+.text-place {
+    background-color: #FEDD00;
+}
+
+.text-quot {
+    background-color: #0000BF;
+}
+
+
+
+.animatetext {
+    animation-name: bgcolor ;
+    animation-duration: 0.75s ; 
+    animation-iteration-count: 6;
+    animation-fill-mode: backwards;
+}
+
+@keyframes bgcolor {
+    from { background-color: #ffffff;  }
+    to { background-color: #fba66c; }
+}
+
+
+
+@font-face {
+	font-family: MondrianTitles;
+	src: url(Mondrian.ttf);
+}
+
+@font-face {
+	font-family: MondrianText;
+	src: url(Mondrian2.ttf);
+}
+
+
+h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
+	font-family: MondrianTitles;
+	color: #000000;
+}
+
+.navbar-brand, #introquote {
+	font-size: 25pt;
+	color: #000000;
+}
+
+.nav-link, .dropdown-item {
+	color: #000000;
+}
+
+.navbar {
+	background-color: #E10600 !important;
+}
+
+#cssnavbar {
+	background-color: #FEDD00 !important;
+}
+
+.sec-nav {
+	color: #000000;
+}
+
+.jumbotron {
+	background-color: #FEDD00;
+	padding-bottom: 1cm;
+}
+
+.textsection, button, .modal-content {
+	font-family: MondrianText, "Lucida Bright", sans-serif;
+	font-size: 15pt;
+}
+
+#journalIntro {
+	border-style: solid;
+	border-width: 1em;
+	border-color: #000000;
+	padding: 2em;
+	margin: 2em;
+}
+
+#gracianquote, #shakespearequote {
+	border-style: solid;
+	border-width: 0.5em;
+	border-color: #000000;
+	padding: 1em;
+	background-color: #0000BF;
+	color: #000000;
+}
+
+.dropcap::first-letter {
+	font-size: 30pt;
+	float: left;
+	margin-right: 15px;
+	font-family: MondrianTitles;
+}
+
+.dropcap, .thumbnail {
+	border-style: solid;
+	border-width: 0.5em;
+	border-color: #000000;
+	padding: 1em;
+	background-color: #0000BF;
+	color: #000000;
+}
+
+.caption {
+	font-family: MondrianText, "Lucida Bright", sans-serif;
+	font-size: 12pt;
+	text-align: center;
+}
+
+
+
+
+.languagebutton {
+  transition-duration: 0.4s;
+}
+
+.languagebutton:hover {
+  background-color: #E10600;
+  color: white;
+}
+
+.checkbox, #sentenceContent, #list {
+	font-family: MondrianText, "Lucida Bright", sans-serif;
+	font-size: 12pt;
+}
+
+.metadata {
+	border-style: solid;
+	border-width: 0.5em;
+	border-color: #000000;
+	padding: 1em;
+	background-color: #E10600;
+	color: #000000;
+}
+
+
+article {
+	background-color: background-color: #FEDD00;
+}
+	
