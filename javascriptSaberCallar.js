@@ -25,6 +25,11 @@ function toggleTopButton() {
   }
 }
 
+//Play shh audio on loading of homepage
+$(document).ready(function() {
+    $("#audio").get(0).play();
+});
+
 
 
 //EDITION 1: BORGES
