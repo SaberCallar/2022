@@ -25,28 +25,28 @@ function toggleTopButton() {
   }
 }
 
-
-//Swapping CSS themes
-// When the CSS theme is changed save a key-value pair in session Storage
-document.onload = function() {
-	var initialStyle = sessionStorage.getItem("href");
-	if initialStyle == 	undefined {
-		initialStyle = document.getElementById("CurrentCSS").getAttribute("href");
-		sessionStorage.setItem("href", initialStyle);
-	}
-	else if initialStyle == 'VogueCSS.css' {
-		document.getElementById('CurrentCSS').setAttribute('href', 'VogueCSS.css');
-	{
-	else if initialStyle == 'MondrianCSS.css' {
-		document.getElementById('CurrentCSS').setAttribute('href', 'MondrianCSS.css');
-		{
-{
-	
-		
+//Swapping CSS theme
 function CSSSwap(csspath) {
 	document.getElementById('CurrentCSS').setAttribute('href', csspath);
 	sessionStorage.setItem('href', csspath);
-}	
+}
+
+// Save the CSS theme to make sure it's consistent while browsing the site
+//Save the starting style as a variable as soon as we load a page of the site
+//Check value of the variable and change the href of the page to be consistent
+$(document).ready(function () {
+	var initialStyle = sessionStorage.getItem('href');
+		
+		
+	switch (initialStyle) {
+    case 'VogueCSS.css':
+      document.getElementById('CurrentCSS').setAttribute('href', 'VogueCSS.css');
+      break;
+    case 'MondrianCSS.css':
+      document.getElementById('CurrentCSS').setAttribute('href', 'MondrianCSS.css');
+      break;
+	}
+})
 	
 	
 	
