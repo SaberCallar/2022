@@ -25,7 +25,7 @@
 	<!--main navbar-->
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
 		<div class="container">
-			<div id="ClioAndErato">
+			<div id="SaberCallar">
 				<a class="navbar-brand" href="index.html">Saber Callar</a>
 			</div>
 			
@@ -287,7 +287,7 @@
 		
 
 		function goto(id) {
-			var t = $(id)[0].offsetTop;
+			var t = $(id)[0].offsetTop + 100;
 			$('html').animate({ scrollTop: t }, 200);
 			$(id).addClass('animatetext');
 			setTimeout(function(){
