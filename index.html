@@ -18,15 +18,15 @@
 	<!--project css and javascript files-->
 	<link rel="stylesheet" href="DefaultCSS.css" id="DefaultCSS">
 	<script src="javascriptSaberCallar.js"></script>
-	<script>
-		$(document).ready(function() {
-			$("#audio").get(0).play();
-		});
+	<script type="text/javascript">
+		window.onload=function(){
+            document.getElementById("shhaudio").play();
+        }
 	</script>
 </head>
 
 <body>
-	<audio id="audio" src="ShhhSound.mp3"></audio>
+	<audio id="shhaudio" src="ShhhSound.mp3" autoplay></audio>
 	<header class="header sticky-top">
 	<!--main navbar-->
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
