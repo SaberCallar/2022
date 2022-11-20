@@ -36,6 +36,8 @@ function maintainCSS() {
 	}
 	else {
 		document.getElementById("CurrentCSS").setAttribute("href", localStorage.getItem("href"));
+	}
+}
 
 
 function CSSSwap(csspath) {
