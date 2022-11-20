@@ -26,25 +26,27 @@ function toggleTopButton() {
 }
 
 
-//Swapping CSS theme functions
-//When an html page of the site loads, we want it to maintain the same CSS 
-//as the html page we have just been using, so we save the CSS style in local storage
-document.onload = maintainCSS();
-function maintainCSS() {
-	if localStorage.getItem("href") == undefined) {
-		document.getElementById("CurrentCSS").setAttribute("href", "VogueCSS.css");
-	}
-	else {
-		document.getElementById("CurrentCSS").setAttribute("href", localStorage.getItem("href"));
-	}
-}
-
-
+//Swapping CSS themes
+// When the CSS theme is changed save a key-value pair in localStorage
 function CSSSwap(csspath) {
-	document.getElementById("CurrentCSS").setAttribute("href", csspath);
-	localStorage.setItem("href", csspath);
+	document.getElementById('CurrentCSS').setAttribute('href', csspath);
+	localStorage.setItem('href', csspath);
 }
 
+// Save the CSS theme and make sure it's consistent while browsing the site
+//Save the starting style as a variable as soon as we load a page of the site
+//Check value of the variable and change the href of the page to be consistent
+$(document).ready(function () {
+	var initialStyle = localStorage.getItem('href');
+	switch (initialStyle) {
+    case 'VogueCSS.css':
+      document.getElementById('CurrentCSS').setAttribute('href', 'VogueCSS.css');
+      break;
+    case 'MondrianCSS.css':
+      document.getElementById('CurrentCSS').setAttribute('href', 'MondrianCSS.css');
+      break;
+	}
+})
 	
 	
 	
