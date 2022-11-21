@@ -56,8 +56,8 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {font-fam
 	position: sticky !important;
 }
 
-.tab-pane ul li, #char-tab, #place-tab, #quot-tab, #list li {
-	color: #000000 !important;
+#char-tab, #place-tab, #quot-tab, #list li a, .minimal a {
+	color: #000000;
 }
 
 .text-char {
