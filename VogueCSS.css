@@ -56,19 +56,7 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {font-fam
 	position: sticky;
 }
 
-.list {
-	color: #000000;
-}
-
-.nav-link {
-	color: #000000;
-}
-
-.nav-link.active {
-	color: #ff6347;
-}
-
-.minimal {
+.tab-pane ul, .nav-link, #list {
 	color: #000000;
 }
 
