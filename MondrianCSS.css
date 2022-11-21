@@ -144,7 +144,7 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 }
 
 #back-to-top {
-	background-color: #FEDD00;
+	background-color: #FEDD00 !important;
 }
 
 
@@ -173,6 +173,7 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 	padding: 1em;
 	background-color: #E10600;
 	color: #000000;
+	position: sticky;
 }
 
 #RebDetails {
