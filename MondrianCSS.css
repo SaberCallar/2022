@@ -156,9 +156,12 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 }
 
 .nav-tabs {
-	background-color: #FEDD00 !important;
+	background-color: #E10600 !important;
 }
-	
+
+.nav-link.active {
+	color: #FEDD00;
+}	
 
 .text-char {
     background-color: #E10600;
