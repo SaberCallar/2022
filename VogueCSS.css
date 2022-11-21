@@ -53,7 +53,6 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {font-fam
 .metadata {
 	border-style: solid;
 	padding: 2em;
-	position: sticky !important;
 }
 
 #char-tab, #place-tab, #quot-tab, #list li a, .minimal a {
