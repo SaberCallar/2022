@@ -8,7 +8,6 @@
 	font-family: MondrianText;
 	src: url(Mondrian2.ttf);
 }
-	
 
 h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 	font-family: MondrianTitles;
@@ -153,10 +152,10 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 }
 
 #list li a, .minimal a {
-	color: #0000BF;
+	color: #FEDD00;
 }
 
-.nav-pills {
+.nav-tabs {
 	background-color: #FEDD00 !important;
 }
 	
