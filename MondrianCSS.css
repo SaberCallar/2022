@@ -160,7 +160,7 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 }
 
 .nav-link.active {
-	color: #FEDD00;
+	background-color: #FEDD00;
 }	
 
 .text-char {
