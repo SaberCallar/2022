@@ -1,30 +1,3 @@
-.text-char {
-    background-color: #E10600;
-}
-
-.text-place {
-    background-color: #FEDD00;
-}
-
-.text-quot {
-    background-color: #08FF08;
-}
-
-
-
-.animatetext {
-    animation-name: bgcolor ;
-    animation-duration: 0.75s ; 
-    animation-iteration-count: 6;
-    animation-fill-mode: backwards;
-}
-
-@keyframes bgcolor {
-    from { background-color: #ffffff;  }
-    to { background-color: #FEDD00; }
-}
-
-
 
 @font-face {
 	font-family: MondrianTitles;
@@ -173,8 +146,47 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 	padding: 1em;
 	background-color: #E10600;
 	color: #000000;
-	position: sticky;
 }
+
+#char-tab, #place-tab, #quot-tab {
+	color: #000000;
+}
+
+#list li a, .minimal a {
+	color: #E10600;
+}
+
+.nav-pills {
+	background-color: #FEDD00;
+}
+	
+
+.text-char {
+    background-color: #E10600;
+}
+
+.text-place {
+    background-color: #FEDD00;
+}
+
+.text-quot {
+    background-color: #08FF08;
+}
+
+
+
+.animatetext {
+    animation-name: bgcolor ;
+    animation-duration: 0.75s ; 
+    animation-iteration-count: 6;
+    animation-fill-mode: backwards;
+}
+
+@keyframes bgcolor {
+    from { background-color: #ffffff;  }
+    to { background-color: #FEDD00; }
+}
+
 
 #RebDetails {
 	border-style: solid;
