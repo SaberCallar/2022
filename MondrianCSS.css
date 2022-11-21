@@ -8,12 +8,6 @@
 	font-family: MondrianText;
 	src: url(Mondrian2.ttf);
 }
-
-hr {
-	border-style: solid;
-	border-width: 1em;
-	border-color: #000000;
-}
 	
 
 h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
@@ -159,11 +153,11 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 }
 
 #list li a, .minimal a {
-	color: #E10600;
+	color: #0000BF;
 }
 
 .nav-pills {
-	background-color: #FEDD00;
+	background-color: #FEDD00 !important;
 }
 	
 
