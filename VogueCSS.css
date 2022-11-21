@@ -1,15 +1,17 @@
-
-
-
-
+/* Custom font for logo and headings and font styling for general text */
 @font-face {
 	font-family: VogueTitles;
 	src: url(Vogue.ttf);
 }
 
-
 h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {font-family: VogueTitles;}
 
+.textsection, button, .modal-content {
+	font-family: Garamond, Cambria, Serif;
+	font-size: 14pt;
+}
+
+/* Navbars */
 .navbar-brand, #introquote {
 	font-size: 25pt;
 }
@@ -18,20 +20,7 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {font-fam
 	color: #000000;
 }
 
-.textsection, button {
-	font-family: Garamond, Cambria, Serif;
-	font-size: 14pt;
-}
-
-.languagebutton {
-  transition-duration: 0.4s;
-}
-
-.languagebutton:hover {
-  background-color: #000000;
-  color: white;
-}
-
+/* Add dropcap and style sections of text */
 .dropcap::first-letter {
 	font-size: 30pt;
 	float: left;
@@ -39,20 +28,22 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {font-fam
 	font-family: VogueTitles;
 }
 
+/* Captions of thumbnails on homepage */
 .caption {
 	font-family: Garamond, Cambria, Serif;
 	font-size: 12pt;
 	text-align: center;
 }
 
-.checkbox, #sentenceContent, #list {
-	font-family: Garamond, Cambria, Serif;
-	font-size: 12pt;
-}
-
+/* Styling for all parts of the metadata toolbar */
 .metadata {
 	border-style: solid;
 	padding: 2em;
+}
+
+.checkbox, #sentenceContent, #list {
+	font-family: Garamond, Cambria, Serif;
+	font-size: 12pt;
 }
 
 #char-tab, #place-tab, #quot-tab, #list li a, .minimal a {
@@ -83,10 +74,17 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {font-fam
     to { background-color: #ff6347; }
 }
 
+/* Styling for language buttons in editions */
+.languagebutton {
+  transition-duration: 0.4s;
+}
 
+.languagebutton:hover {
+  background-color: #000000;
+  color: white;
+}
 
-
-
+/* Jumbotron text animation */
 .sign {
   position: relative; 
   display: flex;
@@ -281,5 +279,3 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {font-fam
     opacity: 1;
   }
 }
-
-

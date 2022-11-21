@@ -1,4 +1,4 @@
-
+/* Custom fonts for logo, headings, and general text */
 @font-face {
 	font-family: MondrianTitles;
 	src: url(Mondrian.ttf);
@@ -14,6 +14,12 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 	color: #000000;
 }
 
+.textsection, button, .modal-content {
+	font-family: MondrianText, "Lucida Bright", sans-serif;
+	font-size: 15pt;
+}
+
+/* Navbars */
 .navbar-brand, #introquote {
 	font-size: 25pt;
 	color: #000000;
@@ -35,11 +41,13 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 	color: #000000;
 }
 
+/* Jumbotron styling */
 .jumbotron {
 	background-color: #FEDD00;
 	padding-bottom: 1cm;
 }
 
+/* Jumbotron text styling */
 .sign {
 	font-family: MondrianTitles;
 	font-size: 50pt;
@@ -58,6 +66,7 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 		
 }
 
+/* Change of jumbotron images */
 .jumbotronTitleH, .jumbotronTitleE, .jumbotronTitleD {
 	background-image: url(Images/ShhManCrop3.jpg) !important;
 }
@@ -70,11 +79,7 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 	background-image: url(Images/SevillaCropAdj.jpg) !important;
 }
 
-.textsection, button, .modal-content {
-	font-family: MondrianText, "Lucida Bright", sans-serif;
-	font-size: 15pt;
-}
-
+/* Layout style of homepage */
 #journalIntro {
 	border-style: solid;
 	border-width: 1em;
@@ -92,6 +97,7 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 	color: #000000;
 }
 
+/* Add dropcap and style sections of text */
 .dropcap::first-letter {
 	font-size: 30pt;
 	float: left;
@@ -108,19 +114,22 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 	color: #000000;
 }
 
-
+/* Captions of thumbnails on homepage */
 .caption {
 	font-family: MondrianText, "Lucida Bright", sans-serif;
 	font-size: 12pt;
 	text-align: center;
 }
 
-#back-to-top {
-	background-color: #FEDD00 !important;
+/* Styling for all parts of the metadata toolbar */
+.metadata {
+	border-style: solid;
+	border-width: 0.5em;
+	border-color: #000000;
+	padding: 1em;
+	background-color: #E10600;
+	color: #000000;
 }
-
-
-
 
 .languagebutton {
   transition-duration: 0.4s;
@@ -136,15 +145,6 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 .checkbox, #sentenceContent, #list {
 	font-family: MondrianText, "Lucida Bright", sans-serif;
 	font-size: 12pt;
-}
-
-.metadata {
-	border-style: solid;
-	border-width: 0.5em;
-	border-color: #000000;
-	padding: 1em;
-	background-color: #E10600;
-	color: #000000;
 }
 
 #char-tab, #place-tab, #quot-tab {
@@ -175,8 +175,6 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
     background-color: #08FF08;
 }
 
-
-
 .animatetext {
     animation-name: bgcolor ;
     animation-duration: 0.75s ; 
@@ -189,7 +187,7 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
     to { background-color: #FEDD00; }
 }
 
-
+/* Styling for text on Editor and Documentation pages*/
 #RebDetails {
 	border-style: solid;
 	border-width: 0.5em;
@@ -207,8 +205,3 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 	padding: 2em;
 	margin: 2em;
 }
-
-	
-
-
-
