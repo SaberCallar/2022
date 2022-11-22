@@ -65,8 +65,6 @@ h1, h3, #jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 70%;
-	height: 50%;
 	transform: translate(-50%, -50%);
 	letter-spacing: 2;
 	left: 50%;

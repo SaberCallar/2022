@@ -100,8 +100,6 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  height: 50%;
   background-image: radial-gradient(
     ellipse 50% 35% at 50% 50%,
     #200711,
