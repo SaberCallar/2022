@@ -22,7 +22,7 @@ h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
 	color: #000000;
 }
 
-.textsection, button, .modal-content {
+.textsection, button, .modal-content, .dropcap {
 	font-family: MondrianText, "Lucida Bright", sans-serif;
 	font-size: 15pt;
 }

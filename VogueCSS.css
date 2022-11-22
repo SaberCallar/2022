@@ -12,9 +12,11 @@
 	src: url(Vogue.ttf);
 }
 
-h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {font-family: VogueTitles;}
+h1, h3, .jumbotronTitle, .navbar-brand, .nav-item, footer, #introquote {
+	font-family: VogueTitles;
+}
 
-.textsection, button, .modal-content {
+.textsection, button, .modal-content, .dropcap {
 	font-family: Garamond, Cambria, Serif;
 	font-size: 14pt;
 }
