@@ -1,3 +1,11 @@
+/* Override text section padding for better display on smaller screens */
+@media only screen and (max-width: 480px) {
+	#journalintro, #editorInfo, #editionIntro, #projectDocumentation {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+}
+
 /* Custom font for logo and headings and font styling for general text */
 @font-face {
 	font-family: VogueTitles;
