@@ -1,19 +1,5 @@
 /* Override text section padding for better display on smaller screens */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-	#journalIntro, #editorInfo, #editionIntro, #projectDocumentation {
-		padding-left: 1em !important;
-		padding-right: 1em !important;
-	}
-}
-
-@media only screen and (min-width: 321px) {
-	#journalIntro, #editorInfo, #editionIntro, #projectDocumentation {
-		padding-left: 1em !important;
-		padding-right: 1em !important;
-	}
-}
-
-@media only screen and (max-width: 320px) {
+@media only screen and (max-device-width: 480px {
 	#journalIntro, #editorInfo, #editionIntro, #projectDocumentation {
 		padding-left: 1em !important;
 		padding-right: 1em !important;
