@@ -199,8 +199,8 @@
 		
 		var listItemTpl = `<li><a href='#texts' onclick='load("$url")'>$label</a></li>`
 		
-		<!-- Use JSON file to retrieve url and label of each story and fill this into 'Select Story' section -->
-		<!-- Add 'Select Metadata' tick button functionality: if button ticked, add appropriate class (and CSS style) to the metadata instance within the text. If unticked, remove class and CSS style -->
+		//Use JSON file to retrieve url and label of each story and fill this into 'Select Story' section
+		//Add 'Select Metadata' tick button functionality: if button ticked, add appropriate class (and CSS style) to the metadata instance within the text. If unticked, remove class and CSS style
 		
 		$(document).ready(main);
 
@@ -242,7 +242,7 @@
 		
 		}
 
-		<!-- Load the selected story to be displayed in the div with id=file; add appropriate ids to metadata instances and fill in the tab lists with metadata instances -->
+		//Load the selected story to be displayed in the div with id=file; add appropriate ids to metadata instances and fill in the tab lists with metadata instances
 		function load(file) {
 			$.ajax({
 				method: 'GET',
@@ -259,7 +259,7 @@
 			});
 		}
 		
-		<!-- Add a unique id to each metadata instance in the form char-1, place-2, quot-3, etc -->
+		//Add a unique id to each metadata instance in the form char-1, place-2, quot-3, etc
 		function addIds() {
 			addId('.char','char')
 			addId('.place','place')
@@ -274,11 +274,11 @@
 			}
 		}
 		
-		<!-- Add lists of metadata instances under appropriate metadata tab -->
-		<!-- Create a list of all metadata instances with class .char/.place/.quot -->
-		<!-- While i is less than length of above list, insert appropriate info into surrounding <li> tag -->
-		<!-- E.g. style=list-char, place=#char-1, content=Madame Henri Bachelier -->
-		<!-- E.g. <li class="list list-char"><a href="#" onclick="goto(#char-1)">Madame Henri Bachelier</a></li> -->
+		//Add lists of metadata instances under appropriate metadata tab
+		//Create a list of all metadata instances with class .char/.place/.quot
+		//While i is less than length of above list, insert appropriate info into surrounding <li> tag
+		//E.g. style=list-char, place=#char-1, content=Madame Henri Bachelier
+		//E.g. <li class="list list-char"><a href="#" onclick="goto(#char-1)">Madame Henri Bachelier</a></li>
 		function filltabs(){
 			filltab("#file .char","list-char","#char")
 			filltab("#file .place","list-place","#place")
@@ -299,7 +299,7 @@
 			}
 		}
 		
-		<!-- Scroll the screen to the selected metadata instances and animate the text for chosen duration -->
+		//Scroll the screen to the selected metadata instances and animate the text for chosen duration
 		function goto(id) {
 			var t = $(id)[0].offsetTop - 200;
 			$('html').animate({ scrollTop: t }, 200);
